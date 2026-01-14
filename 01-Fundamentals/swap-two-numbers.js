@@ -10,7 +10,7 @@
 
  console.log(a,b);
 
-// output : 10 20
+// output : 20 10
 
 // 2)
 
@@ -24,6 +24,14 @@ c = c - d;
 console.log(c,d);
 
 // output : 50 30
+
+
+//3)
+
+let e = 40;
+let f = 50;
+[e,f]=[b,a];
+console.log(a,b);
 
 
 
