@@ -43,11 +43,8 @@ console.log(sum);
 
 
 
-
-
-
-
 //clean vrsion of code
+
 // const example
 const semp = 10;
 console.log(semp);
