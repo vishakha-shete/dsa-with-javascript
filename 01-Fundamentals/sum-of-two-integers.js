@@ -10,3 +10,5 @@ let d = 30;
 let sum = (c + d) ;
 console.log(sum);
 
+
+// ✅ Q2. Difference of two integers
