@@ -16,6 +16,7 @@ console.log(rem);
 // output : 1
 
 
+
 // 3)
 let e = 6;
 let f = 2;
