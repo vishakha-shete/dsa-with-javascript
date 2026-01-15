@@ -30,8 +30,10 @@ console.log(c,d);
 
 let e = 40;
 let f = 50;
-[e,f]=[b,a];
-console.log(a,b);
+[e,f]=[f,e];
+console.log(f,e);
+
+// output : 50 40
 
 
 
