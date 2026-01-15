@@ -59,3 +59,23 @@ console.log(typeof (a + b)); // string
 🧠 One-Line Summary
 
 “The + operator concatenates when strings are involved; otherwise, it adds numbers.
+
+🔹 Type Coercion in JavaScript
+
+📌 Definition
+Type coercion is the automatic conversion of one data type into another by JavaScript during operations.
+
+In simple words:
+👉 JavaScript changes data types automatically when needed.
+
+🔁 Types of Type Coercion
+
+There are two types:
+
+1️⃣ Implicit Type Coercion (Automatic)
+
+JavaScript does it by itself.
+
+2️⃣ Explicit Type Coercion (Manual)
+
+We convert the type manually.
