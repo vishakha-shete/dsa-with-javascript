@@ -52,7 +52,8 @@ let c = 40;
 let d = 10;
 console.log(c + d + " is the sum of " + c + " and " + d);
 
-//  otput : the sum of 10 and 20 is 30
+//  otput :  // output : the sum of 10 and 20 is 30
+
 
 
 
