@@ -178,3 +178,79 @@ Logical operators always return boolean
 
 Logical operators are used to combine multiple conditions into a single boolean result.
 
+
+
+
+🔹 Unary Operator (Very Important)
+📌 Definition
+
+Unary operator works with only ONE operand (value).
+
+Example:
+
+++a
+--a
+!a
+
+🔹 Types of Unary Operators
+1️⃣ Increment (++)
+
+Pre-increment → ++a
+
+Post-increment → a++
+
+2️⃣ Decrement (--)
+
+Pre-decrement → --a
+
+Post-decrement → a--
+
+🔹 Post-increment (a++)
+
+👉 Use value first, then increase
+
+let a = 10;
+let b = a++;
+
+console.log(a); // 11
+console.log(b); // 10
+
+🔹 Pre-increment (++a)
+
+👉 Increase first, then use value
+
+let c = 10;
+let d = ++c;
+
+console.log(c); // 11
+console.log(d); // 11
+
+🔹 Complex Expression (Very Good Example)
+let e = 12;
+let f = 15;
+let g = 8;
+
+let h = e++ + --f - g++ + ++e;
+
+Step-by-step evaluation:
+e++   → 12  (e becomes 13)
+--f   → 14
+g++   → 8   (g becomes 9)
+++e   → 14  (e was 13)
+
+h = 12 + 14 - 8 + 14
+h = 32
+
+🧠 Golden Rules (Write These)
+
+a++ → use first, then increment
+
+++a → increment first, then use
+
+Unary operators need variables, not constants
+
+Nested increment/decrement is not allowed
+
+⭐ One-Line Summary
+
+Unary operators work on a single operand and are commonly used for increment and decrement operations.
