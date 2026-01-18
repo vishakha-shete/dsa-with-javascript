@@ -86,3 +86,25 @@ even/odd logic
 
 🧠 One-Line Summary
 Use % to extract digits and Math.floor(n / 10) to remove digits.
+
+
+
+🔹 Comparison / Relational Operators
+
+They always return a Boolean value (true or false)
+
+🧠 Very Important Rules 
+
+== → compares values only (type conversion happens)
+
+=== → compares value + type (no conversion)
+
+!= → opposite of ==
+
+!== → opposite of ===
+
+Comparison operators always return boolean
+
+⭐ One-Line Summary
+
+“Use === and !== for safe and predictable comparisons in JavaScript.”
