@@ -108,3 +108,73 @@ Comparison operators always return boolean
 ⭐ One-Line Summary
 
 “Use === and !== for safe and predictable comparisons in JavaScript.”
+
+
+
+🔹 Logical Operators
+
+👉 Used when we want to check multiple conditions together
+👉 They always return a boolean (true / false)
+
+1️⃣ AND operator (&&)
+
+Rule:
+✔ Returns true only if all conditions are true
+
+✅ Correct examples
+console.log(12 > 7 && 8 < 56 && 19 > 10);
+// true (all conditions are true)
+
+console.log(12 < 7 && 8 < 56 && 19 > 10);
+// false (first condition is false)
+
+
+📝 Note:
+If any one condition is false, the result is false.
+
+2️⃣ OR operator (||)
+
+⚠️ You wrote // — that is a comment, not OR.
+✅ Correct OR operator is ||
+
+Rule:
+✔ Returns true if at least one condition is true
+
+✅ Correct example
+console.log(12 < 7 || 8 < 56 || 19 > 10);
+// true (because 8 < 56 and 19 > 10 are true)
+
+3️⃣ NOT operator (!)
+
+Rule:
+✔ Reverses the result
+
+true → false
+
+false → true
+
+✅ Correct example
+console.log(!(12 < 7 || 8 < 56 || 19 > 10));
+// false
+
+
+🧠 Explanation:
+
+Inside OR → result is true
+
+!true → false
+
+🧠 Very Important Rules (Write These)
+
+&& → all conditions must be true
+
+|| → at least one condition must be true
+
+! → reverses the result
+
+Logical operators always return boolean
+
+⭐ One-Line Summary
+
+Logical operators are used to combine multiple conditions into a single boolean result.
+
