@@ -2,9 +2,10 @@
 
 --Math.abs()
 - abs is stands for absulute
-- it converts negative valur into posive value
+- it converts negative value into positive value
 
 --Math.ceil()
+it increased one number
 Math.ceil() always rounds up
 Returns an integer
 Very useful for:
