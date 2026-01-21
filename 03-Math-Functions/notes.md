@@ -3,7 +3,15 @@
 --Math.abs()
 - abs is stands for absulute
 - it converts negative valur into posive value
---Math.cell()
+
+--Math.ceil()
+Math.ceil() always rounds up
+Returns an integer
+Very useful for:
+pagination
+minimum counts
+division-based problems
+
 --Math.floor()
 --Math.round()
 --Math.trunc()
