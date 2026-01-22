@@ -1,46 +1,103 @@
-# Math functions and problem:
+# 📘 JavaScript Math Functions & Problems
 
---Math.abs()
-- abs is stands for absulute
-- it converts negative value into positive value
+This section covers important **JavaScript Math functions** that are commonly used in  
+**DSA, logic building, problem-solving, and interviews**.
 
---Math.ceil()
-it increased one number
-Math.ceil() always rounds up
+---
+
+## 🔹 Math.abs()
+- **abs** stands for **absolute**
+- Converts a **negative number into a positive number**
+- Positive numbers remain unchanged
+
+```js
+Math.abs(-10); // 10
+Math.abs(5);   // 5
+🔹 Math.ceil()
+Always rounds a number UP
+
 Returns an integer
-Very useful for:
-pagination
-minimum counts
-division-based problems
 
---Math.floor()
-it remove after point element
+Used for:
+Pagination
 
---Math.round()
-if after point number is 5 or greater than 5 so its worl ceil and if after point number is 4 less than 4 then it will be work like math.floor
+Minimum counts
 
---Math.trunc()
-its remove decimal part which is after point
+Division-based problems
 
-| Function       | 4.9 | -4.9 |
-| -------------- | --- | ---- |
-| `Math.floor()` | 4   | -5   |
-| `Math.ceil()`  | 5   | -4   |
-| `Math.trunc()` | 4   | -4   |
+Math.ceil(4.1);   // 5
+Math.ceil(-4.1);  // -4
+🔹 Math.floor()
+Always rounds a number DOWN
 
---Math.pow()
-Math.pow(base, exponent) returns base raised to the power exponent.
+Returns the largest integer less than or equal to the number
 
---Math.sqrt()
- = its find the sqare root
+Math.floor(4.9);   // 4
+Math.floor(-4.1);  // -5
+🔹 Math.round()
+Rounds to the nearest integer
 
---Math.cbrt()
+Decimal ≥ 0.5 → round up
 
---Math.max()
-Math.max() returns the largest value from given numbers.
+Decimal < 0.5 → round down
 
---Math.min()
-Math.max() returns the smallest value from given numbers.
+Math.round(4.4);  // 4
+Math.round(4.5);  // 5
+Math.round(-3.5); // -3
+🔹 Math.trunc()
+Removes the decimal part
 
---Math.random()
---Math.fixed()
+Does not round
+
+Moves the number towards zero
+
+Math.trunc(4.9);   // 4
+Math.trunc(-4.9);  // -4
+🔸 Difference Between floor, ceil & trunc
+Function	4.9	-4.9
+Math.floor()	4	-5
+Math.ceil()	5	-4
+Math.trunc()	4	-4
+🔹 Math.pow()
+Returns a number raised to a power
+
+Math.pow(2, 3); // 8
+Math.pow(5, 2); // 25
+Alternative (Modern JS)
+2 ** 3; // 8
+🔹 Math.sqrt()
+Returns the square root of a number
+
+Math.sqrt(16); // 4
+Math.sqrt(25); // 5
+Math.sqrt(-4); // NaN
+🔹 Math.cbrt()
+Returns the cube root of a number
+
+Math.cbrt(27); // 3
+Math.cbrt(-8); // -2
+🔹 Math.max()
+Returns the largest value from given numbers
+
+Math.max(10, 20, 5); // 20
+🔹 Math.min()
+Returns the smallest value from given numbers
+
+Math.min(10, 20, 5); // 5
+🔹 Math.random()
+Generates a random number between 0 and 1
+
+Math.random();
+Random integer between min and max (inclusive)
+Math.floor(Math.random() * (max - min + 1)) + min;
+🚀 Why These Functions Matter
+Used in DSA problems
+
+Important for coding interviews
+
+Useful in real-world applications
+
+📌 Status
+✅ Learning completed
+✅ Practiced with problems
+🚀 Moving towards advanced problem-solving
