@@ -8,7 +8,7 @@ function calculateCompoundInterest(p, r, t, n) {
     return compoundInterest.toFixed(2);
   }
   
-  // Example usage (for VS Code testing)
+  // Example 
   let principal = 1000;
   let rate = 0.5;   // already in decimal
   let time = 10;    // years
@@ -19,5 +19,5 @@ function calculateCompoundInterest(p, r, t, n) {
     calculateCompoundInterest(principal, rate, time, times)
   );
   
-  
+
   output : 110199.00
