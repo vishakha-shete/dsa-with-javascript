@@ -1,0 +1,14 @@
+function sumOfDigits(n) {
+    let sum = 0;
+
+    while (n > 0) {
+        sum += n % 10;
+        n = Math.floor(n / 10);
+    }
+
+    console.log("Sum of digits:", sum);
+}
+
+sumOfDigits(1234);
+
+// output : Sum of digits: 10
