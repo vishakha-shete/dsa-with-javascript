@@ -26,3 +26,25 @@ if (c > d){
 }
 
 // output : 20
+
+//3) 
+
+let p = 80;
+let q = 90;
+
+if (p > q){
+    console.log("greatest number");
+}else{
+    console.log("greatest number");
+}
+
+//4
+
+let num = 45;
+let num1 = 20;
+
+if(num > num1){
+    console.log(`${num} is greatest number`);
+}else{
+    console.log(`${num1} is agreatest number`);
+}
