@@ -7,3 +7,7 @@ if (num) {
 } else {
     console.log("False (Falsy value)");
 }
+
+
+
+
