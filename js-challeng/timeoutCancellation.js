@@ -17,4 +17,4 @@ const cancel = cancellable(fn, [2], 3000);
 // Try cancelling after 1 second
 setTimeout(() => {
     cancel();
-}, 1000);
+}, 1000)
